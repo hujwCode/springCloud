@@ -11,6 +11,7 @@
         <module>springcloud-api</module>
         <module>springCloud-provider-dept-8001</module>
         <module>springCloud-consumer-dept-80</module>
+        <module>springCloud-eureka-7001</module>
     </modules>
 
     <!--打包方式-->
@@ -81,7 +82,7 @@
 
             <dependency>
                 <groupId>ch.qos.logback</groupId>
-                <artifactId>logbakc-core</artifactId>
+                <artifactId>logback-core</artifactId>
                 <version>1.2.3</version>
             </dependency>
         </dependencies>

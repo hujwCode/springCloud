@@ -17,3 +17,13 @@ spring:
     url: jdbc:mysql://47.101.60.164:3306/user?useUnicode=true&characterEncoding=utf-8
     username: hujw
     password: hujw
+
+
+#eureka
+eureka:
+  instance:
+    hostname: localhost
+    instance-id: springCloud-provider-dept-8001 #修改eureka的默认描述信息
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7001/eureka/
