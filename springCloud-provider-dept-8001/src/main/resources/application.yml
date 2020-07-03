@@ -21,9 +21,13 @@ spring:
 
 #eureka
 eureka:
-  instance:
-    hostname: localhost
-    instance-id: springCloud-provider-dept-8001 #修改eureka的默认描述信息
   client:
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/,http://localhost:7003/eureka/
+  instance:
+    instance-id: springCloud-provider-dept-8001 #修改eureka的默认描述信息
+
+#info配置
+info:
+  app.name: kuangshen-springcloud
+  company.name: www.kuangshen.com
