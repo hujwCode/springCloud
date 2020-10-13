@@ -24,7 +24,7 @@
         <project.build.sourceEncoiding>UTF-8</project.build.sourceEncoiding>
         <maven.comiler.source>1.8</maven.comiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <lombok.version>1.16.10</lombok.version>
         <log4j.version>1.2.17</log4j.version>
     </properties>
